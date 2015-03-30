@@ -1,0 +1,41 @@
+
+body, td {
+    font: 14px/1.3 verdana, arial, helvetica, sans-serif;
+    }
+h1 {
+    font-size:1.3em;
+    margin: 1em 0 1.4em;
+    }
+a:link {
+    color:#33c;
+    }
+a:visited {
+    color:#339;
+    }
+ul {
+    margin:1.4em 0 2em;
+    }
+ul li {
+    margin-bottom:.8em;
+    }
+
+ 
+table.demoTbl {
+    border-collapse: collapse;
+}
+
+table.demoTbl td, table.demoTbl th {
+    padding: 6px 8px;
+    border:1px solid #000;
+}
+
+table.demoTbl th {
+    text-align:left;
+}
+table.demoTbl td.num {
+    text-align:right;
+}
+    
+table.demoTbl td.foot {
+    text-align: center;
+}

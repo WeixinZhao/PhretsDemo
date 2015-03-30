@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "134315e2ff7706f19e7543db87f1a14b",
+    "packages": [
+        {
+            "name": "raveren/kint",
+            "version": "v0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raveren/kint.git",
+                "reference": "ada810111ced4e3a926b4040da9b86442e43b613"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raveren/kint/zipball/ada810111ced4e3a926b4040da9b86442e43b613",
+                "reference": "ada810111ced4e3a926b4040da9b86442e43b613",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Kint.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rokas Šleinius",
+                    "homepage": "https://github.com/raveren"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/raveren/kint/contributors"
+                }
+            ],
+            "description": "Kint - debugging helper for PHP developers",
+            "homepage": "https://github.com/raveren/kint",
+            "keywords": [
+                "debug",
+                "kint",
+                "php"
+            ],
+            "time": "2013-08-12 22:46:16"
+        },
+        {
+            "name": "troydavisson/phrets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/troydavisson/PHRETS.git",
+                "reference": "d87c83683522d91b5a84e2f97b4ca519a698817b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/troydavisson/PHRETS/zipball/d87c83683522d91b5a84e2f97b4ca519a698817b",
+                "reference": "d87c83683522d91b5a84e2f97b4ca519a698817b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phrets.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Troy Davisson",
+                    "email": "troy.davisson@gmail.com",
+                    "homepage": "http://troda.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "RETS library in PHP",
+            "homepage": "http://github.com/troydavisson/PHRETS",
+            "keywords": [
+                "mls",
+                "rets"
+            ],
+            "time": "2014-09-25 20:15:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "troydavisson/phrets": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
